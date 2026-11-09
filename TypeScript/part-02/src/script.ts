@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //* Basic types
 // let myString: string = "Programming Hero";
 // let myNumber: number = 56456;
@@ -93,3 +94,13 @@ const user: TUser = {
 
 // user.email = "mir@gmail.com";
 // console.log(user.address);
+=======
+// const addTwo = (a,b) => {
+//     return a + b;
+// }
+
+let myString = "Hello, TypeScript!";
+let myNumber: number = 42;
+myNumber = 12 + 3;
+console.log(myString);
+>>>>>>> cc5a33e0832d60e447adb998a034461cdb85eff3
