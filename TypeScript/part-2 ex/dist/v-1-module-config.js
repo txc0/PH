@@ -1,4 +1,4 @@
-export const greetings = () => {
-    console.log("Hello from the greetings function!");
+const greetings = () => {
+    console.log("Hello Programming Hero");
 };
-greetings();
+export {};

@@ -1,1 +1,13 @@
-"use strict";
+const move = "up";
+console.log(move);
+const value1 = "Hello";
+const value2 = 42;
+const role1 = "user";
+const role2 = "user";
+const role3 = "guest";
+console.log(role1);
+console.log(role2);
+console.log(role3);
+const user1 = { id: 1, name: "John", role: "admin", privileges: ["create", "delete"] };
+const user2 = { id: 2, name: "Jane", role: "member", plans: ["basic", "premium"] };
+export {};

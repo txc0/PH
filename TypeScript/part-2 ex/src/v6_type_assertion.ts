@@ -18,5 +18,5 @@ interface Config {
 const config : Config = {
     port: 3000
 }
-const currentPort : number = config.port; //? non-null assertion operator, we are asserting that config.port is not null or undefined.
- 
+const currentPort : number = config.port!; //? non-null assertion operator, we are asserting that config.port is not null or undefined.
+
