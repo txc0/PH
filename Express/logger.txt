@@ -1,0 +1,46 @@
+Method -> URL -> Time: GET  //?$ sign because we are using template literals
+  -> /api/v1/users 
+  -> 2026-11-25T08:55:21.588ZMethod -> URL -> Time: GET  
+  -> /api/v1/users 
+  -> 2026-11-25T08:56:02.298Z
+ Method -> URL -> Time: GET | /api/v1/users | 2026-11-25T08:57:52.586Z
+
+ Method -> URL -> Time: GET | /api/v1/users | 2026-11-25T10:09:15.725Z
+
+ Method -> URL -> Time: GET | /api/v1/users | 2026-11-25T10:09:52.425Z
+
+ Method -> URL -> Time: GET | /api/v1/profile | 2026-11-25T10:09:59.395Z
+
+ Method -> URL -> Time: GET | /api/v1/profile | 2026-11-25T10:10:01.393Z
+
+ Method -> URL -> Time: GET | /api/v1/profile | 2026-11-25T10:18:51.634Z
+
+ Method -> URL -> Time: GET | / | 2026-11-25T10:18:57.171Z
+
+ Method -> URL -> Time: GET | /api/v1/profile | 2026-11-25T10:18:58.816Z
+
+ Method -> URL -> Time: GET | / | 2026-11-25T10:19:07.302Z
+
+ Method -> URL -> Time: GET | / | 2026-11-25T10:19:15.736Z
+
+ Method -> URL -> Time: GET | / | 2026-11-25T10:20:41.838Z
+
+ Method -> URL -> Time: GET | /users | 2026-11-25T10:41:38.613Z
+
+ Method -> URL -> Time: POST | /api/auth/login | 2026-11-25T10:47:06.264Z
+
+ Method -> URL -> Time: POST | /api/v1/auth/login | 2026-11-25T10:47:22.314Z
+
+ Method -> URL -> Time: POST | /api/v1/auth/login | 2026-11-25T10:47:39.831Z
+
+ Method -> URL -> Time: POST | /api/v1/auth/login | 2026-11-25T10:47:47.297Z
+
+ Method -> URL -> Time: GET | /api/v1/users | 2026-11-25T10:48:12.739Z
+
+ Method -> URL -> Time: POST | /api/v1/users | 2026-11-25T10:48:40.690Z
+
+ Method -> URL -> Time: GET | /api/v1/users | 2026-11-25T10:50:08.398Z
+
+ Method -> URL -> Time: GET | /api/v1/users | 2026-11-25T10:50:15.255Z
+
+ Method -> URL -> Time: POST | /api/v1/auth/login | 2026-11-25T10:52:57.596Z
