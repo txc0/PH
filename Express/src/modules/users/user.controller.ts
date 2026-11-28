@@ -1,7 +1,6 @@
 import type { Request, Response } from "express";
 import { userService } from "./user.service";
 
-
 const createUser = async (req: Request, res: Response) => {
   try {
     const result = await userService.createUserIntoDB(req.body);
@@ -21,6 +20,7 @@ const createUser = async (req: Request, res: Response) => {
 };
 
 const getAllUsers = async (req: Request, res: Response) => {
+  console.log("From Controller", req.user);
   try {
     const result = await userService.getAllUsersFromDB();
     // console.log(result);

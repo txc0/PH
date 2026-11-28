@@ -11,14 +11,25 @@ import { profileRoute } from "./modules/profile/profile.route.js";
 import { authRoute } from "./modules/auth/auth.route.js";
 import fs from "fs";
 import logger from "./middleware/logger.js";
+import globalErrorHandler from "./middleware/globalErrorHandler.js";
+import cors from "cors";
 
 const app: Application = express();
+
+const corsOptions = {
+  origin: ["localhost:3000"], // Allow all origins
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allow all HTTP methods
+  preflightContinue: false,
+  optionsSuccessStatus: 200,
+};
 
 app.use(express.json());
 app.use(express.text());
 app.use(express.urlencoded({ extended: true }));
 app.use(logger);
-
+app.use(cors()); //? () because cors is a function that returns a middleware function
+app.use(cors(corsOptions)); //? () because cors is a function that returns a middleware function
+app.use(globalErrorHandler);
 
 
 app.get("/", (req: Request, res: Response) => {
